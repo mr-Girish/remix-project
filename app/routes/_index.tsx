@@ -16,11 +16,8 @@ export default function IndexRoute() {
           Remix <span>TO DO !</span>
         </h1>
         <nav>
-          <ul>
-            <li>
-              <Link to="jokes">Read Jokes</Link>
-            </li>
-          </ul>
+         
+         {/* commenting it out  */}
           {/* <JokesRoute/> */}
         </nav>
       </div>

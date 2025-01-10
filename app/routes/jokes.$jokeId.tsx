@@ -11,6 +11,7 @@ export const loader = async ({
     where: { id: params.jokeId },
   });
   if (!joke) {
+    console.log("=======error in loader jokes.jokeId=========")
     throw new Error("Joke not found");
   }
   return json({ joke });
